@@ -1,0 +1,236 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+
+/*Lista, Menu*/
+nav ul {
+    display:flex; /* Deixa a lista no menu um do lado do outro*/
+    justify-content: space-between;/* organiza o espaco entre cada palavra da lista*/
+    list-style-type: none;/* tira as bolinhas na lista*/
+    align-items: center; /*Deixa a lista verticalmente alinhada ao centro*/ 
+    padding: 0px 230px;/*organiza a distancia entre a parte de cima do menu e a de baixo*/
+    position: fixed;/*Fixar o Menu quando a pagina for rolada para baixo ou para cima o menu acompanhar*/
+    background-color: #90daf1;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;  
+}
+
+/*Efeito das letras do menu, mudar a cor passando o mouse*/
+nav a:hover { 
+    color:#000000;   
+}
+
+.container { /*Definir a distância do menu de navegação*/
+    padding: 0px 100px;
+}
+
+/*Classe criada para centralizar a logo*/
+.center{
+    text-align: center;
+}
+
+main img { /*Formatar a imagem após a logo*/
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+}
+    
+
+/* Estilizar o Titulo do texto da pagina */
+h1 {
+    color: #90daf1; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*Estilizar o texto*/
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+/*Cor das letras do menu e das redes sociais*/
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;/* Para tirar o sublinhado das palavras da lista*/
+    }
+
+.dev{ /*Rodape Site Desenvolvido*/
+    text-align: center;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    }  
+footer img { /*Definir tamanho das logos do rodapé*/
+    width: 35px;
+    height: 35px;
+}
+    
+footer { /*Centralizar o rodapé*/
+    display: flex;
+    justify-content: center;       
+}
+    
+
+
+/*Imagens do Quem Somos*/
+.quemsomos{
+    width: 380px;
+    height: 250px;
+}
+
+/*Imagens do Trabalhos Realizados*/
+.trabalhos{
+    height: 250px;
+    width: 350px
+}
+
+/* Página como ajudar*/
+
+#code{ /*Ajustar QR-Code*/
+    display: flex;
+    justify-content: center;
+    
+}
+.textarea{ /*Ajustar texto da Conta Bancária*/
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    text-align: center;    
+}
+/*Pagina Parceiros*/
+.parceiros{
+    height: 200px;
+    width: 350px;
+}
+
+/*Pagina Fale Conosco*/
+main h2 { /*Editar o Titulo h2*/
+    color:rgb(144, 218, 241);
+    text-align: center; 
+    font-size: 40px;
+    text-decoration:none;
+}
+
+abbr{ /*Edita o campo de preenchimento */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    width: 500px;
+    height: 250px;    
+}
+
+section{ /*Centraliza o campo de preenchimento*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 300px;
+    width: 1150px;
+    }
+
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   
+}
+
+section h2{
+    color: aliceblue;
+    font-size: 2.5rem;
+    margin: 2rem;   
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+ 
+form {
+    width: 3000px;
+    height: 400px;
+}
+
+form label{
+    color: rgb(144, 218, 241);
+    font-size: 20px;
+    margin-bottom: 4px
+}
+
+form input{
+    padding: 13px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+form button{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: rgb(144, 218, 241);
+    transition: all 1s;
+}
+
+form button:hover{
+    background: #f5f5f5;
+    color: #101026;    
+}
+
+
+/*Pagina de Obrigado*/
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 45px;
+    color: #f5f5f5;
+    margin-bottom: 30px;
+}
+
+.paragrafo{
+    color: #f5f5f5;
+    margin-bottom: 50px
+}
+
+.btn{
+    padding: 15px 55px;
+    background: #f5f5f5;
+    text-decoration: none;
+    color: #101026;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.btn :hover{
+    border-radius: 16px ;
+}
+
+
+
+
