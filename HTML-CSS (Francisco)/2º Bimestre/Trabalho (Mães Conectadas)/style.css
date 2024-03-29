@@ -1,0 +1,524 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;	
+    background-color: rgb(248, 222, 241);
+}
+
+.menu {
+    list-style:none;
+    display: flex;
+    background-color: rgb(250, 205, 205);
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    margin-top: 0;
+    position:fixed
+}
+
+.menu li {
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin-left: 4.4%;
+ 
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(233, 138, 153);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu a:hover {
+    color: rgb(249, 249, 249);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+   
+.menu img {
+    width: 150px;
+    height: 150px;
+}
+
+.banner img {
+    margin-left: 15%;
+    margin-top: 200px;
+    border: solid 1px rgb(230, 104, 182);
+}
+
+
+
+/*Página Apresentação*/
+h1{
+    text-align: center;
+    color: rgb(251, 141, 183);
+    margin-top: 5%;
+}
+
+div2 img {
+    margin-left: -4%;
+    margin-top: 5%;
+}
+
+.celular img {
+    margin-left: 40%;
+    margin-top: -8%;
+    margin-bottom: -2.1%;
+}
+
+div2 h5 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size:medium;
+    margin-left: 21%;
+    margin-top: -33%;
+    color: rgb(153, 63, 63);
+    text-align: justify;
+    margin-right: 1% ;
+}
+
+.texto_app {
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-right: 15%;
+    margin-top: 40%;
+    border-left: 10px;
+    border-color: black;
+    
+}
+
+.texto_app h5 {
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+}
+/* Fim Página Apresentação*/
+
+
+
+
+/*Página Dicas*/
+.banner_dicas img {
+    margin-top: -10%;
+    width: 100%;
+    height: 700px;
+    
+}
+
+.primeiro_paragrafo {
+    font-size: medium;
+    font-style:italic;
+    text-align: left;
+    margin: 10%;
+}
+
+.primeiro_paragrafo h4 {
+    margin-left: 17%;
+    font-family:sans-serif;
+    margin-top: -5%;
+    color: rgb(119, 119, 119);
+    
+}
+
+.banner2_dicas img {
+    margin-left: 34.5%;
+    margin-top: -10%;
+}
+
+.titulo1 h1 {
+    text-align: left;
+    margin-left: 28%;
+}
+
+.segundo_paragrafo {
+    font-size: medium;
+    font-style:italic;
+    text-align: left;
+    margin: 25%;
+    margin-top: 10%;
+}
+
+.segundo_paragrafo h4 {
+    margin-left: 8%;
+    font-family:sans-serif;
+    margin-top: -15%;
+    color: rgb(119, 119, 119);
+    font-size: 100%;
+    margin-bottom: -30%;
+
+}
+
+.terceiro_paragrafo h4 {
+    margin-top: 10%;
+}
+
+.titulo2 {
+    margin-top: -19%;
+    margin-left: 3%;
+    
+    
+}
+
+.titulo2 h1 {
+    text-align: left;
+    margin-left: 26%;
+}
+
+.titulo3 {
+    margin-top: -26%;
+    
+}
+
+.titulo3 h1 {
+    text-align: left;
+    margin-left: 28%;
+}
+/*Fim da página Dicas*/
+
+
+
+/* Página Experiências */
+#blocos{ /* imagens e texto do bloco */
+    width: 200px;
+    height: 250px;
+    text-align: center; 
+}
+
+#textoum{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#textodois{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+    margin-right: 20%;
+    text-align: justify;
+
+}
+.primeirobloco{  /* bloco */
+    width: 100%; height: 450px;
+    background-color: rgb(238, 206, 2012);
+    display: flex;
+    margin-bottom: -1%;
+}
+
+#perfis{
+    color: black;
+}
+.segundobloco{ /* bloco */
+    width: 100%; height: 490px;
+    background-color: wheat;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: -1%;
+}
+#blocodois{ /* imagem e texto */
+    width: 200px;
+    height: 250px;
+    text-align: center;
+}
+#textotres{ 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+    margin-right: 20%;
+    display: inline-block;
+    text-align: center;
+}
+.terceirobloco{ /* bloco */
+    width: 100%; height: 450px;
+    background-color: rgb(238, 206, 2012);
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: -1%;
+}
+#blocotres{ /* imagens e texto */
+    width: 200px;
+    height: 250px;
+    text-align: center;
+}
+#textoquatro{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+    margin-right: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+.quartobloco{ /* blocos */
+    width: 100%; height: 400px;
+    background-color: wheat;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: -1%;
+}
+#blocoquatro{ /* imagens e texto */
+    width: 200px;
+    height: 250px;
+    text-align: center;
+}
+#textocinco{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+    margin-right: 20%;
+    display: inline-block;
+    text-align: center;
+}
+.quintobloco{ /* blocos */
+    width: 100%; height: 450px;
+    background-color: rgb(238, 206, 2012);
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: -1.8%;
+}
+#blococinco{
+    width: 200px;
+    height: 250px;
+    text-align: center; 
+     
+}
+#textoseis{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+    margin-right: 20%;
+    display: inline-block;
+    text-align: center;
+}
+/*Fim página experiências*/
+
+
+
+/*Pagina Acompanhamento*/
+#acompanhe{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size:20px;
+    text-align: center;
+    color: rgb(153, 63, 63);
+    margin-top: 3%;
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 5%;
+    border: 1px solid black;
+    text-align: center;
+} 
+th,td{
+    border: 1px solid black
+}
+th{
+    background-color: rgb(231, 56, 179);
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 10px;
+} 
+table{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(10, 10, 10);
+    padding: 10px;
+} 
+td{
+    padding: 5px;
+}
+#trimestre1{
+    background-color: rgb(228, 191, 200);
+    padding: 10px;   
+}
+#trimestre2{
+    background-color: rgb(189, 131, 146);
+}
+#trimestre3{
+    background-color: rgb(201, 98, 123);
+}
+#trimestre4{
+    background-color: rgb(231, 56, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-size: medium;
+    font-style: italic;
+}
+/*Fim página acompanhamento*/
+
+
+
+/*Conheça o app*/
+.app{
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size:medium;
+    color: rgb(153, 63, 63);
+}  
+.app img{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+}
+.app h2{
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 10%;
+}
+.app2{
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size:medium;
+    color: rgb(153, 63, 63);
+}  
+.app2 img{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+}
+.app2 h2{
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 10%;
+}
+.app3{
+    display: flex;
+    margin-left: 41.5%;
+    margin-right: 5%;   
+}
+.app3 img{
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100px;
+    height: 100px;
+}
+/*Fim Conheça o App*/
+
+
+
+/*Fale Conosco*/
+#faleconoscotexto{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    border-style: groove;  /* linhas em cima e em baixo do texto */
+}
+.faleconoscosocial{ /* redes sociais */
+    display: flex;
+    margin-left: 35%;
+    margin-right: 5%;   
+}
+.faleconoscosocial img{ /* imagens */
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+
+/*Rodapé1*/
+footer{
+    background-color: rgb(97, 94, 106);
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: -40px;
+  
+  
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+
+    
+}
+
+.menu_footer li a {
+    color:rgb(52, 52, 52);
+    text-decoration: none;
+    font-size:medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu_footer {
+    list-style: none;
+    margin-top: -7%;
+}
+
+.menu_footer h4 {
+    color:rgb(52, 52, 52);
+}
+
+.menu_footer a:hover{
+    color: rgb(249, 249, 249);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.texto_redes_sociais h5{
+    font-size: medium;
+    margin-bottom: 2%;
+}
+.facebook{
+    margin-left: 5150%;
+    margin-top: -30px;
+    
+}
+
+.instagram {
+    margin-left: 5105%;
+    margin-top: -30px;
+    
+}
+
+.twitter {
+    margin-left: 5175%;
+    margin-top: -30px;
+}
+
+.download {
+    margin-left: 42.5%;
+    margin-top: 1%;
+    display: flex;
+}
+
+.texto_download h4{
+    margin-left: 45%;
+    margin-top: -20.5%;
+    color:rgb(52, 52, 52);
+}
+    
+
+footer h5 {
+    color:rgb(52, 52, 52);
+    margin-left: 89%;
+    padding-top: 1%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+/*Final Rodapé 1*/
+
+
+
+/*Rodapé 2*/
+footer2 {
+    margin: 0%;
+    
+}
+
+footer2 h5{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align-last: center;
+    color: rgb(36, 36, 36);
+    background-color: rgb(248, 204, 204);
+    font-size:medium;
+    margin-bottom: -2%;
+   
+
+}
+
