@@ -1,0 +1,263 @@
+/** Menu de navegação **/
+#inicial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+#textoinicial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#logo{
+    width: 20%;
+    right: 20%;   
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;	
+    background-color: black;
+}
+
+.menu {
+    list-style:none;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    margin-top: 0;
+    position:fixed
+}
+
+.menu li {
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    margin-left: 4.4%;
+ 
+}
+
+.menu li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu a:hover {
+    color: rgb(127, 127, 129);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+   
+.menu img {
+    width: 150px;
+    height: 150px;
+}
+#inicial{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+/** Titulo **/
+h1{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 5%;
+}
+/** Texo **/
+#textoinicial{
+    color: whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/** Baner **/
+#baner{
+    width: 80%;
+    height: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+figure figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s;
+}
+
+figure:hover figcaption{
+    opacity: 1;
+}
+figure.capa{
+    position: relative;
+    box-shadow: 1px 1px 4px 0px black;
+}
+
+figure.capa img{
+    width: 80%;
+    height: 80%;
+}
+/** Rodapé 1 **/
+footer{
+    background-color: rgb(97, 94, 106);
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: -40px;
+}
+footer ul {
+    list-style: none;
+    display: flex;   
+}
+
+.texto_redes_sociais h2{
+    font-size: 20px;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.facebook{
+    margin-left: 2450%;
+}
+.instagram{
+    margin-left: 2100%;
+}
+/** Rodapé 2 **/
+#rodapedois{
+    background-color: rgb(97, 94, 106);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+/** Tabela Discografia **/
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    background-color: rgb(97, 94, 106);
+}
+
+th{
+    text-align: center;
+}
+/** Blocos Discografia **/
+#blocos {
+    background-color: black;
+    display:flex;
+    position: relative;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 250px;
+}
+#primeiro {
+    width: 100%;
+    height: 260px;
+    background-color: black;
+    display:inline-block;
+    margin: 5px;
+}
+#disco{
+    width:90%;
+    height: 80%;
+}
+
+/** Blocos Fotos **/
+#blocosfotos{
+    background-color: black;
+    display:flex;
+    position: relative;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 250px; 
+}
+#primeirofotos {
+    width: 100%;
+    height: 260px;
+    background-color: black;
+    display:inline-block;
+    margin: 5px;
+}
+#fotos{
+    width: 100%;
+    height: 100%;
+}
+#segundofotos{
+    width: 100%;
+    height: 260px;
+    background-color: black;
+    display: inline-block;
+    margin: 5px;
+}
+#terceirofotos{
+    width: 100%;
+    height: 260px;
+    background-color: black;
+    display: inline-block;
+    margin: 5px;
+}
+/** Músicas **/
+#musicas{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    font-size: 20px;
+}
+#musicafotos{
+    width: 30%;
+    height: 50%;
+    margin-left: 80%;
+}
+/** Blocos fãs **/
+#blocosfas{
+    background-color: black;
+    display:flex;
+    position: relative;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 250px; 
+}
+#primeirofas {
+    width: 80%;
+    height: 120px;
+    background-color: rgb(97, 94, 106);
+    display:inline-block;
+    margin: 5px;
+    margin-left: 10%;
+}
+#perfilfans{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+    color: whitesmoke;
+}
+#textofans{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+#acidente{
+    width: 90%;
+    height: 90%;
+    margin-left: 60px;
+}
+#acidenteum{
+    width: 90%;
+    height: 90%;
+}
+
+
